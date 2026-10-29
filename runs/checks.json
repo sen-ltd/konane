@@ -1,0 +1,3694 @@
+{
+ "N": 14,
+ "elapsedMs": 257198,
+ "positions": 3005260,
+ "claims": {
+  "ernst": {
+   "statement": "Ernst 1995: S(2k+1) = k, S(2k) = k·*",
+   "N": 14,
+   "checked": 14,
+   "holds": 14,
+   "fails": 0,
+   "silent": 0,
+   "failures": [],
+   "complete": true
+  },
+  "scott-odd-odd": {
+   "statement": "Scott 1999: S(2j+1, 2k+1) = j + k",
+   "N": 14,
+   "checked": 49,
+   "holds": 49,
+   "fails": 0,
+   "silent": 0,
+   "failures": [],
+   "complete": true
+  },
+  "scott-odd-even": {
+   "statement": "Scott 1999: S(2j+1, 2k) = k·↑ + k·* if j = 0; j − k if j > k; 2^(j−k−1) otherwise",
+   "N": 14,
+   "checked": 49,
+   "holds": 49,
+   "fails": 0,
+   "silent": 0,
+   "failures": [],
+   "complete": true
+  },
+  "scott-even-even": {
+   "statement": "Scott 1999, j ≤ k: S(2j, 2k) = j + k·* if j < k; k if j = k, k even; (k−1) if j = k, k odd",
+   "N": 14,
+   "checked": 28,
+   "holds": 28,
+   "fails": 0,
+   "silent": 0,
+   "failures": [],
+   "complete": true
+  },
+  "ooo": {
+   "statement": "Table 1 text: S(2i+1, 2j+1, 2k+1) = i + j + k",
+   "N": 14,
+   "checked": 343,
+   "holds": 343,
+   "fails": 0,
+   "silent": 0,
+   "failures": [],
+   "complete": true
+  },
+  "oee": {
+   "statement": "Conjecture (Table 2): S(2i+1, 2j, 2k) = (j+i) + k·* if k ≥ 2j; k + i − j if i > j and k < 2j",
+   "N": 14,
+   "checked": 137,
+   "holds": 137,
+   "fails": 0,
+   "silent": 206,
+   "failures": [],
+   "complete": true
+  },
+  "eoe": {
+   "statement": "Table 4 text: if i, k ≥ j, S(2i, 2j+1, 2k) = (j+1) + (k+i)·*",
+   "N": 14,
+   "checked": 188,
+   "holds": 91,
+   "fails": 97,
+   "silent": 155,
+   "failures": [
+    {
+     "args": [
+      2,
+      1,
+      2
+     ],
+     "predicted": "1",
+     "actual": "⇓"
+    },
+    {
+     "args": [
+      2,
+      1,
+      4
+     ],
+     "predicted": "1*",
+     "actual": "0"
+    },
+    {
+     "args": [
+      2,
+      3,
+      2
+     ],
+     "predicted": "2",
+     "actual": "0"
+    },
+    {
+     "args": [
+      4,
+      1,
+      2
+     ],
+     "predicted": "1*",
+     "actual": "0"
+    },
+    {
+     "args": [
+      2,
+      1,
+      6
+     ],
+     "predicted": "1",
+     "actual": "1/4"
+    },
+    {
+     "args": [
+      2,
+      3,
+      4
+     ],
+     "predicted": "2*",
+     "actual": "1/2"
+    },
+    {
+     "args": [
+      4,
+      3,
+      2
+     ],
+     "predicted": "2*",
+     "actual": "1/2"
+    },
+    {
+     "args": [
+      6,
+      1,
+      2
+     ],
+     "predicted": "1",
+     "actual": "1/4"
+    },
+    {
+     "args": [
+      2,
+      1,
+      8
+     ],
+     "predicted": "1*",
+     "actual": "1/2"
+    },
+    {
+     "args": [
+      2,
+      3,
+      6
+     ],
+     "predicted": "2",
+     "actual": "3/4"
+    },
+    {
+     "args": [
+      4,
+      3,
+      4
+     ],
+     "predicted": "2",
+     "actual": "1"
+    },
+    {
+     "args": [
+      6,
+      3,
+      2
+     ],
+     "predicted": "2",
+     "actual": "3/4"
+    },
+    {
+     "args": [
+      8,
+      1,
+      2
+     ],
+     "predicted": "1*",
+     "actual": "1/2"
+    },
+    {
+     "args": [
+      2,
+      1,
+      10
+     ],
+     "predicted": "1",
+     "actual": "1/2*"
+    },
+    {
+     "args": [
+      2,
+      3,
+      8
+     ],
+     "predicted": "2*",
+     "actual": "7/8"
+    },
+    {
+     "args": [
+      4,
+      3,
+      6
+     ],
+     "predicted": "2*",
+     "actual": "3/2"
+    },
+    {
+     "args": [
+      4,
+      5,
+      4
+     ],
+     "predicted": "3",
+     "actual": "1"
+    },
+    {
+     "args": [
+      6,
+      3,
+      4
+     ],
+     "predicted": "2*",
+     "actual": "3/2"
+    },
+    {
+     "args": [
+      8,
+      3,
+      2
+     ],
+     "predicted": "2*",
+     "actual": "7/8"
+    },
+    {
+     "args": [
+      10,
+      1,
+      2
+     ],
+     "predicted": "1",
+     "actual": "1/2*"
+    },
+    {
+     "args": [
+      2,
+      1,
+      12
+     ],
+     "predicted": "1*",
+     "actual": "1/2"
+    },
+    {
+     "args": [
+      2,
+      3,
+      10
+     ],
+     "predicted": "2",
+     "actual": "15/16"
+    },
+    {
+     "args": [
+      4,
+      3,
+      8
+     ],
+     "predicted": "2",
+     "actual": "7/4"
+    },
+    {
+     "args": [
+      4,
+      5,
+      6
+     ],
+     "predicted": "3*",
+     "actual": "3/2"
+    },
+    {
+     "args": [
+      6,
+      5,
+      4
+     ],
+     "predicted": "3*",
+     "actual": "3/2"
+    },
+    {
+     "args": [
+      8,
+      3,
+      4
+     ],
+     "predicted": "2",
+     "actual": "7/4"
+    },
+    {
+     "args": [
+      10,
+      3,
+      2
+     ],
+     "predicted": "2",
+     "actual": "15/16"
+    },
+    {
+     "args": [
+      12,
+      1,
+      2
+     ],
+     "predicted": "1*",
+     "actual": "1/2"
+    },
+    {
+     "args": [
+      2,
+      1,
+      14
+     ],
+     "predicted": "1",
+     "actual": "1/2*"
+    },
+    {
+     "args": [
+      2,
+      3,
+      12
+     ],
+     "predicted": "2*",
+     "actual": "31/32"
+    },
+    {
+     "args": [
+      4,
+      3,
+      10
+     ],
+     "predicted": "2*",
+     "actual": "15/8"
+    },
+    {
+     "args": [
+      4,
+      5,
+      8
+     ],
+     "predicted": "3",
+     "actual": "7/4"
+    },
+    {
+     "args": [
+      6,
+      5,
+      6
+     ],
+     "predicted": "3",
+     "actual": "2"
+    },
+    {
+     "args": [
+      8,
+      5,
+      4
+     ],
+     "predicted": "3",
+     "actual": "7/4"
+    },
+    {
+     "args": [
+      10,
+      3,
+      4
+     ],
+     "predicted": "2*",
+     "actual": "15/8"
+    },
+    {
+     "args": [
+      12,
+      3,
+      2
+     ],
+     "predicted": "2*",
+     "actual": "31/32"
+    },
+    {
+     "args": [
+      14,
+      1,
+      2
+     ],
+     "predicted": "1",
+     "actual": "1/2*"
+    },
+    {
+     "args": [
+      2,
+      3,
+      14
+     ],
+     "predicted": "2",
+     "actual": "63/64"
+    },
+    {
+     "args": [
+      4,
+      3,
+      12
+     ],
+     "predicted": "2",
+     "actual": "31/16"
+    },
+    {
+     "args": [
+      4,
+      5,
+      10
+     ],
+     "predicted": "3*",
+     "actual": "15/8"
+    },
+    {
+     "args": [
+      6,
+      5,
+      8
+     ],
+     "predicted": "3*",
+     "actual": "5/2"
+    },
+    {
+     "args": [
+      6,
+      7,
+      6
+     ],
+     "predicted": "4",
+     "actual": "2"
+    },
+    {
+     "args": [
+      8,
+      5,
+      6
+     ],
+     "predicted": "3*",
+     "actual": "5/2"
+    },
+    {
+     "args": [
+      10,
+      5,
+      4
+     ],
+     "predicted": "3*",
+     "actual": "15/8"
+    },
+    {
+     "args": [
+      12,
+      3,
+      4
+     ],
+     "predicted": "2",
+     "actual": "31/16"
+    },
+    {
+     "args": [
+      14,
+      3,
+      2
+     ],
+     "predicted": "2",
+     "actual": "63/64"
+    },
+    {
+     "args": [
+      4,
+      3,
+      14
+     ],
+     "predicted": "2*",
+     "actual": "63/32"
+    },
+    {
+     "args": [
+      4,
+      5,
+      12
+     ],
+     "predicted": "3",
+     "actual": "31/16"
+    },
+    {
+     "args": [
+      6,
+      5,
+      10
+     ],
+     "predicted": "3",
+     "actual": "5/2*"
+    },
+    {
+     "args": [
+      6,
+      7,
+      8
+     ],
+     "predicted": "4*",
+     "actual": "5/2"
+    },
+    {
+     "args": [
+      8,
+      7,
+      6
+     ],
+     "predicted": "4*",
+     "actual": "5/2"
+    },
+    {
+     "args": [
+      10,
+      5,
+      6
+     ],
+     "predicted": "3",
+     "actual": "5/2*"
+    },
+    {
+     "args": [
+      12,
+      5,
+      4
+     ],
+     "predicted": "3",
+     "actual": "31/16"
+    },
+    {
+     "args": [
+      14,
+      3,
+      4
+     ],
+     "predicted": "2*",
+     "actual": "63/32"
+    },
+    {
+     "args": [
+      4,
+      5,
+      14
+     ],
+     "predicted": "3*",
+     "actual": "63/32"
+    },
+    {
+     "args": [
+      6,
+      5,
+      12
+     ],
+     "predicted": "3*",
+     "actual": "5/2"
+    },
+    {
+     "args": [
+      6,
+      7,
+      10
+     ],
+     "predicted": "4",
+     "actual": "11/4"
+    },
+    {
+     "args": [
+      8,
+      7,
+      8
+     ],
+     "predicted": "4",
+     "actual": "3"
+    },
+    {
+     "args": [
+      10,
+      7,
+      6
+     ],
+     "predicted": "4",
+     "actual": "11/4"
+    },
+    {
+     "args": [
+      12,
+      5,
+      6
+     ],
+     "predicted": "3*",
+     "actual": "5/2"
+    },
+    {
+     "args": [
+      14,
+      5,
+      4
+     ],
+     "predicted": "3*",
+     "actual": "63/32"
+    },
+    {
+     "args": [
+      6,
+      5,
+      14
+     ],
+     "predicted": "3",
+     "actual": "5/2*"
+    },
+    {
+     "args": [
+      6,
+      7,
+      12
+     ],
+     "predicted": "4*",
+     "actual": "23/8"
+    },
+    {
+     "args": [
+      8,
+      7,
+      10
+     ],
+     "predicted": "4*",
+     "actual": "7/2"
+    },
+    {
+     "args": [
+      8,
+      9,
+      8
+     ],
+     "predicted": "5",
+     "actual": "3"
+    },
+    {
+     "args": [
+      10,
+      7,
+      8
+     ],
+     "predicted": "4*",
+     "actual": "7/2"
+    },
+    {
+     "args": [
+      12,
+      7,
+      6
+     ],
+     "predicted": "4*",
+     "actual": "23/8"
+    },
+    {
+     "args": [
+      14,
+      5,
+      6
+     ],
+     "predicted": "3",
+     "actual": "5/2*"
+    },
+    {
+     "args": [
+      6,
+      7,
+      14
+     ],
+     "predicted": "4",
+     "actual": "47/16"
+    },
+    {
+     "args": [
+      8,
+      7,
+      12
+     ],
+     "predicted": "4",
+     "actual": "15/4"
+    },
+    {
+     "args": [
+      8,
+      9,
+      10
+     ],
+     "predicted": "5*",
+     "actual": "7/2"
+    },
+    {
+     "args": [
+      10,
+      9,
+      8
+     ],
+     "predicted": "5*",
+     "actual": "7/2"
+    },
+    {
+     "args": [
+      12,
+      7,
+      8
+     ],
+     "predicted": "4",
+     "actual": "15/4"
+    },
+    {
+     "args": [
+      14,
+      7,
+      6
+     ],
+     "predicted": "4",
+     "actual": "47/16"
+    },
+    {
+     "args": [
+      8,
+      7,
+      14
+     ],
+     "predicted": "4*",
+     "actual": "31/8"
+    },
+    {
+     "args": [
+      8,
+      9,
+      12
+     ],
+     "predicted": "5",
+     "actual": "15/4"
+    },
+    {
+     "args": [
+      10,
+      9,
+      10
+     ],
+     "predicted": "5",
+     "actual": "4"
+    },
+    {
+     "args": [
+      12,
+      9,
+      8
+     ],
+     "predicted": "5",
+     "actual": "15/4"
+    },
+    {
+     "args": [
+      14,
+      7,
+      8
+     ],
+     "predicted": "4*",
+     "actual": "31/8"
+    },
+    {
+     "args": [
+      8,
+      9,
+      14
+     ],
+     "predicted": "5*",
+     "actual": "31/8"
+    },
+    {
+     "args": [
+      10,
+      9,
+      12
+     ],
+     "predicted": "5*",
+     "actual": "9/2"
+    },
+    {
+     "args": [
+      10,
+      11,
+      10
+     ],
+     "predicted": "6",
+     "actual": "4"
+    },
+    {
+     "args": [
+      12,
+      9,
+      10
+     ],
+     "predicted": "5*",
+     "actual": "9/2"
+    },
+    {
+     "args": [
+      14,
+      9,
+      8
+     ],
+     "predicted": "5*",
+     "actual": "31/8"
+    },
+    {
+     "args": [
+      10,
+      9,
+      14
+     ],
+     "predicted": "5",
+     "actual": "9/2*"
+    },
+    {
+     "args": [
+      10,
+      11,
+      12
+     ],
+     "predicted": "6*",
+     "actual": "9/2"
+    },
+    {
+     "args": [
+      12,
+      11,
+      10
+     ],
+     "predicted": "6*",
+     "actual": "9/2"
+    },
+    {
+     "args": [
+      14,
+      9,
+      10
+     ],
+     "predicted": "5",
+     "actual": "9/2*"
+    },
+    {
+     "args": [
+      10,
+      11,
+      14
+     ],
+     "predicted": "6",
+     "actual": "19/4"
+    },
+    {
+     "args": [
+      12,
+      11,
+      12
+     ],
+     "predicted": "6",
+     "actual": "5"
+    },
+    {
+     "args": [
+      14,
+      11,
+      10
+     ],
+     "predicted": "6",
+     "actual": "19/4"
+    },
+    {
+     "args": [
+      12,
+      11,
+      14
+     ],
+     "predicted": "6*",
+     "actual": "11/2"
+    },
+    {
+     "args": [
+      12,
+      13,
+      12
+     ],
+     "predicted": "7",
+     "actual": "5"
+    },
+    {
+     "args": [
+      14,
+      11,
+      12
+     ],
+     "predicted": "6*",
+     "actual": "11/2"
+    },
+    {
+     "args": [
+      12,
+      13,
+      14
+     ],
+     "predicted": "7*",
+     "actual": "11/2"
+    },
+    {
+     "args": [
+      14,
+      13,
+      12
+     ],
+     "predicted": "7*",
+     "actual": "11/2"
+    },
+    {
+     "args": [
+      14,
+      13,
+      14
+     ],
+     "predicted": "7",
+     "actual": "6"
+    }
+   ],
+   "complete": true
+  },
+  "eoe-shifted": {
+   "statement": "Table 4 text with the condition moved to i, k ≥ j + 2",
+   "N": 14,
+   "checked": 91,
+   "holds": 91,
+   "fails": 0,
+   "silent": 252,
+   "failures": [],
+   "complete": true
+  },
+  "oeo-printed": {
+   "statement": "Table 5/6 text, i ≤ k read as printed: 0 if i = k (S(1,2,1) = *2); −2^(−k−1) for 2k+1 = 2i+3 … 2i+1+j; −k beyond",
+   "N": 14,
+   "checked": 196,
+   "holds": 61,
+   "fails": 135,
+   "silent": 0,
+   "failures": [
+    {
+     "args": [
+      1,
+      2,
+      3
+     ],
+     "predicted": "−1",
+     "actual": "−1/2"
+    },
+    {
+     "args": [
+      1,
+      2,
+      5
+     ],
+     "predicted": "−2",
+     "actual": "−1"
+    },
+    {
+     "args": [
+      1,
+      2,
+      7
+     ],
+     "predicted": "−3",
+     "actual": "−2"
+    },
+    {
+     "args": [
+      1,
+      4,
+      5
+     ],
+     "predicted": "−2",
+     "actual": "−1/2"
+    },
+    {
+     "args": [
+      1,
+      6,
+      3
+     ],
+     "predicted": "−1/4",
+     "actual": "−1/8"
+    },
+    {
+     "args": [
+      3,
+      2,
+      5
+     ],
+     "predicted": "−2",
+     "actual": "−1/2"
+    },
+    {
+     "args": [
+      1,
+      2,
+      9
+     ],
+     "predicted": "−4",
+     "actual": "−3"
+    },
+    {
+     "args": [
+      1,
+      4,
+      7
+     ],
+     "predicted": "−3",
+     "actual": "−1"
+    },
+    {
+     "args": [
+      1,
+      6,
+      5
+     ],
+     "predicted": "−2",
+     "actual": "−1/4"
+    },
+    {
+     "args": [
+      1,
+      8,
+      3
+     ],
+     "predicted": "−1/4",
+     "actual": "−1/16"
+    },
+    {
+     "args": [
+      3,
+      2,
+      7
+     ],
+     "predicted": "−3",
+     "actual": "−1"
+    },
+    {
+     "args": [
+      3,
+      4,
+      5
+     ],
+     "predicted": "−1/8",
+     "actual": "−1/4"
+    },
+    {
+     "args": [
+      1,
+      2,
+      11
+     ],
+     "predicted": "−5",
+     "actual": "−4"
+    },
+    {
+     "args": [
+      1,
+      4,
+      9
+     ],
+     "predicted": "−4",
+     "actual": "−2"
+    },
+    {
+     "args": [
+      1,
+      6,
+      7
+     ],
+     "predicted": "−3",
+     "actual": "−1/2"
+    },
+    {
+     "args": [
+      1,
+      10,
+      3
+     ],
+     "predicted": "−1/4",
+     "actual": "−1/32"
+    },
+    {
+     "args": [
+      3,
+      2,
+      9
+     ],
+     "predicted": "−4",
+     "actual": "−2"
+    },
+    {
+     "args": [
+      3,
+      4,
+      7
+     ],
+     "predicted": "−3",
+     "actual": "−1/2"
+    },
+    {
+     "args": [
+      5,
+      2,
+      7
+     ],
+     "predicted": "−3",
+     "actual": "−1/2"
+    },
+    {
+     "args": [
+      1,
+      2,
+      13
+     ],
+     "predicted": "−6",
+     "actual": "−5"
+    },
+    {
+     "args": [
+      1,
+      4,
+      11
+     ],
+     "predicted": "−5",
+     "actual": "−3"
+    },
+    {
+     "args": [
+      1,
+      6,
+      9
+     ],
+     "predicted": "−4",
+     "actual": "−1"
+    },
+    {
+     "args": [
+      1,
+      8,
+      7
+     ],
+     "predicted": "−3",
+     "actual": "−1/4"
+    },
+    {
+     "args": [
+      1,
+      10,
+      5
+     ],
+     "predicted": "−1/8",
+     "actual": "−1/16"
+    },
+    {
+     "args": [
+      1,
+      12,
+      3
+     ],
+     "predicted": "−1/4",
+     "actual": "−1/64"
+    },
+    {
+     "args": [
+      3,
+      2,
+      11
+     ],
+     "predicted": "−5",
+     "actual": "−3"
+    },
+    {
+     "args": [
+      3,
+      4,
+      9
+     ],
+     "predicted": "−4",
+     "actual": "−1"
+    },
+    {
+     "args": [
+      3,
+      6,
+      7
+     ],
+     "predicted": "−3",
+     "actual": "−1/4"
+    },
+    {
+     "args": [
+      3,
+      8,
+      5
+     ],
+     "predicted": "−1/8",
+     "actual": "−1/16"
+    },
+    {
+     "args": [
+      5,
+      2,
+      9
+     ],
+     "predicted": "−4",
+     "actual": "−1"
+    },
+    {
+     "args": [
+      5,
+      4,
+      7
+     ],
+     "predicted": "−1/16",
+     "actual": "−1/4"
+    },
+    {
+     "args": [
+      1,
+      4,
+      13
+     ],
+     "predicted": "−6",
+     "actual": "−4"
+    },
+    {
+     "args": [
+      1,
+      6,
+      11
+     ],
+     "predicted": "−5",
+     "actual": "−2"
+    },
+    {
+     "args": [
+      1,
+      8,
+      9
+     ],
+     "predicted": "−4",
+     "actual": "−1/2"
+    },
+    {
+     "args": [
+      1,
+      10,
+      7
+     ],
+     "predicted": "−3",
+     "actual": "−1/8"
+    },
+    {
+     "args": [
+      1,
+      12,
+      5
+     ],
+     "predicted": "−1/8",
+     "actual": "−1/32"
+    },
+    {
+     "args": [
+      1,
+      14,
+      3
+     ],
+     "predicted": "−1/4",
+     "actual": "−1/128"
+    },
+    {
+     "args": [
+      3,
+      2,
+      13
+     ],
+     "predicted": "−6",
+     "actual": "−4"
+    },
+    {
+     "args": [
+      3,
+      4,
+      11
+     ],
+     "predicted": "−5",
+     "actual": "−2"
+    },
+    {
+     "args": [
+      3,
+      6,
+      9
+     ],
+     "predicted": "−4",
+     "actual": "−1/2"
+    },
+    {
+     "args": [
+      3,
+      8,
+      7
+     ],
+     "predicted": "−1/16",
+     "actual": "−1/8"
+    },
+    {
+     "args": [
+      3,
+      10,
+      5
+     ],
+     "predicted": "−1/8",
+     "actual": "−1/32"
+    },
+    {
+     "args": [
+      5,
+      2,
+      11
+     ],
+     "predicted": "−5",
+     "actual": "−2"
+    },
+    {
+     "args": [
+      5,
+      4,
+      9
+     ],
+     "predicted": "−4",
+     "actual": "−1/2"
+    },
+    {
+     "args": [
+      5,
+      6,
+      7
+     ],
+     "predicted": "−1/16",
+     "actual": "−1/8"
+    },
+    {
+     "args": [
+      7,
+      2,
+      9
+     ],
+     "predicted": "−4",
+     "actual": "−1/2"
+    },
+    {
+     "args": [
+      1,
+      6,
+      13
+     ],
+     "predicted": "−6",
+     "actual": "−3"
+    },
+    {
+     "args": [
+      1,
+      8,
+      11
+     ],
+     "predicted": "−5",
+     "actual": "−1"
+    },
+    {
+     "args": [
+      1,
+      10,
+      9
+     ],
+     "predicted": "−4",
+     "actual": "−1/4"
+    },
+    {
+     "args": [
+      1,
+      14,
+      5
+     ],
+     "predicted": "−1/8",
+     "actual": "−1/64"
+    },
+    {
+     "args": [
+      3,
+      4,
+      13
+     ],
+     "predicted": "−6",
+     "actual": "−3"
+    },
+    {
+     "args": [
+      3,
+      6,
+      11
+     ],
+     "predicted": "−5",
+     "actual": "−1"
+    },
+    {
+     "args": [
+      3,
+      8,
+      9
+     ],
+     "predicted": "−4",
+     "actual": "−1/4"
+    },
+    {
+     "args": [
+      3,
+      12,
+      5
+     ],
+     "predicted": "−1/8",
+     "actual": "−1/64"
+    },
+    {
+     "args": [
+      5,
+      2,
+      13
+     ],
+     "predicted": "−6",
+     "actual": "−3"
+    },
+    {
+     "args": [
+      5,
+      4,
+      11
+     ],
+     "predicted": "−5",
+     "actual": "−1"
+    },
+    {
+     "args": [
+      5,
+      6,
+      9
+     ],
+     "predicted": "−4",
+     "actual": "−1/4"
+    },
+    {
+     "args": [
+      7,
+      2,
+      11
+     ],
+     "predicted": "−5",
+     "actual": "−1"
+    },
+    {
+     "args": [
+      7,
+      4,
+      9
+     ],
+     "predicted": "−1/32",
+     "actual": "−1/4"
+    },
+    {
+     "args": [
+      1,
+      8,
+      13
+     ],
+     "predicted": "−6",
+     "actual": "−2"
+    },
+    {
+     "args": [
+      1,
+      10,
+      11
+     ],
+     "predicted": "−5",
+     "actual": "−1/2"
+    },
+    {
+     "args": [
+      1,
+      12,
+      9
+     ],
+     "predicted": "−4",
+     "actual": "−1/8"
+    },
+    {
+     "args": [
+      1,
+      14,
+      7
+     ],
+     "predicted": "−1/16",
+     "actual": "−1/32"
+    },
+    {
+     "args": [
+      3,
+      6,
+      13
+     ],
+     "predicted": "−6",
+     "actual": "−2"
+    },
+    {
+     "args": [
+      3,
+      8,
+      11
+     ],
+     "predicted": "−5",
+     "actual": "−1/2"
+    },
+    {
+     "args": [
+      3,
+      10,
+      9
+     ],
+     "predicted": "−4",
+     "actual": "−1/8"
+    },
+    {
+     "args": [
+      3,
+      12,
+      7
+     ],
+     "predicted": "−1/16",
+     "actual": "−1/32"
+    },
+    {
+     "args": [
+      3,
+      14,
+      5
+     ],
+     "predicted": "−1/8",
+     "actual": "−1/128"
+    },
+    {
+     "args": [
+      5,
+      4,
+      13
+     ],
+     "predicted": "−6",
+     "actual": "−2"
+    },
+    {
+     "args": [
+      5,
+      6,
+      11
+     ],
+     "predicted": "−5",
+     "actual": "−1/2"
+    },
+    {
+     "args": [
+      5,
+      8,
+      9
+     ],
+     "predicted": "−1/32",
+     "actual": "−1/8"
+    },
+    {
+     "args": [
+      5,
+      10,
+      7
+     ],
+     "predicted": "−1/16",
+     "actual": "−1/32"
+    },
+    {
+     "args": [
+      7,
+      2,
+      13
+     ],
+     "predicted": "−6",
+     "actual": "−2"
+    },
+    {
+     "args": [
+      7,
+      4,
+      11
+     ],
+     "predicted": "−5",
+     "actual": "−1/2"
+    },
+    {
+     "args": [
+      7,
+      6,
+      9
+     ],
+     "predicted": "−1/32",
+     "actual": "−1/8"
+    },
+    {
+     "args": [
+      9,
+      2,
+      11
+     ],
+     "predicted": "−5",
+     "actual": "−1/2"
+    },
+    {
+     "args": [
+      1,
+      10,
+      13
+     ],
+     "predicted": "−6",
+     "actual": "−1"
+    },
+    {
+     "args": [
+      1,
+      12,
+      11
+     ],
+     "predicted": "−5",
+     "actual": "−1/4"
+    },
+    {
+     "args": [
+      1,
+      14,
+      9
+     ],
+     "predicted": "−4",
+     "actual": "−1/16"
+    },
+    {
+     "args": [
+      3,
+      8,
+      13
+     ],
+     "predicted": "−6",
+     "actual": "−1"
+    },
+    {
+     "args": [
+      3,
+      10,
+      11
+     ],
+     "predicted": "−5",
+     "actual": "−1/4"
+    },
+    {
+     "args": [
+      3,
+      12,
+      9
+     ],
+     "predicted": "−1/32",
+     "actual": "−1/16"
+    },
+    {
+     "args": [
+      3,
+      14,
+      7
+     ],
+     "predicted": "−1/16",
+     "actual": "−1/64"
+    },
+    {
+     "args": [
+      5,
+      6,
+      13
+     ],
+     "predicted": "−6",
+     "actual": "−1"
+    },
+    {
+     "args": [
+      5,
+      8,
+      11
+     ],
+     "predicted": "−5",
+     "actual": "−1/4"
+    },
+    {
+     "args": [
+      5,
+      10,
+      9
+     ],
+     "predicted": "−1/32",
+     "actual": "−1/16"
+    },
+    {
+     "args": [
+      5,
+      12,
+      7
+     ],
+     "predicted": "−1/16",
+     "actual": "−1/64"
+    },
+    {
+     "args": [
+      7,
+      4,
+      13
+     ],
+     "predicted": "−6",
+     "actual": "−1"
+    },
+    {
+     "args": [
+      7,
+      6,
+      11
+     ],
+     "predicted": "−5",
+     "actual": "−1/4"
+    },
+    {
+     "args": [
+      7,
+      8,
+      9
+     ],
+     "predicted": "−1/32",
+     "actual": "−1/16"
+    },
+    {
+     "args": [
+      9,
+      2,
+      13
+     ],
+     "predicted": "−6",
+     "actual": "−1"
+    },
+    {
+     "args": [
+      9,
+      4,
+      11
+     ],
+     "predicted": "−1/64",
+     "actual": "−1/4"
+    },
+    {
+     "args": [
+      1,
+      12,
+      13
+     ],
+     "predicted": "−6",
+     "actual": "−1/2"
+    },
+    {
+     "args": [
+      1,
+      14,
+      11
+     ],
+     "predicted": "−5",
+     "actual": "−1/8"
+    },
+    {
+     "args": [
+      3,
+      10,
+      13
+     ],
+     "predicted": "−6",
+     "actual": "−1/2"
+    },
+    {
+     "args": [
+      3,
+      12,
+      11
+     ],
+     "predicted": "−5",
+     "actual": "−1/8"
+    },
+    {
+     "args": [
+      5,
+      8,
+      13
+     ],
+     "predicted": "−6",
+     "actual": "−1/2"
+    },
+    {
+     "args": [
+      5,
+      10,
+      11
+     ],
+     "predicted": "−5",
+     "actual": "−1/8"
+    },
+    {
+     "args": [
+      5,
+      14,
+      7
+     ],
+     "predicted": "−1/16",
+     "actual": "−1/128"
+    },
+    {
+     "args": [
+      7,
+      6,
+      13
+     ],
+     "predicted": "−6",
+     "actual": "−1/2"
+    },
+    {
+     "args": [
+      7,
+      8,
+      11
+     ],
+     "predicted": "−1/64",
+     "actual": "−1/8"
+    },
+    {
+     "args": [
+      9,
+      4,
+      13
+     ],
+     "predicted": "−6",
+     "actual": "−1/2"
+    },
+    {
+     "args": [
+      9,
+      6,
+      11
+     ],
+     "predicted": "−1/64",
+     "actual": "−1/8"
+    },
+    {
+     "args": [
+      11,
+      2,
+      13
+     ],
+     "predicted": "−6",
+     "actual": "−1/2"
+    },
+    {
+     "args": [
+      1,
+      14,
+      13
+     ],
+     "predicted": "−6",
+     "actual": "−1/4"
+    },
+    {
+     "args": [
+      3,
+      12,
+      13
+     ],
+     "predicted": "−6",
+     "actual": "−1/4"
+    },
+    {
+     "args": [
+      3,
+      14,
+      11
+     ],
+     "predicted": "−5",
+     "actual": "−1/16"
+    },
+    {
+     "args": [
+      5,
+      10,
+      13
+     ],
+     "predicted": "−6",
+     "actual": "−1/4"
+    },
+    {
+     "args": [
+      5,
+      12,
+      11
+     ],
+     "predicted": "−1/64",
+     "actual": "−1/16"
+    },
+    {
+     "args": [
+      5,
+      14,
+      9
+     ],
+     "predicted": "−1/32",
+     "actual": "−1/64"
+    },
+    {
+     "args": [
+      7,
+      8,
+      13
+     ],
+     "predicted": "−6",
+     "actual": "−1/4"
+    },
+    {
+     "args": [
+      7,
+      10,
+      11
+     ],
+     "predicted": "−1/64",
+     "actual": "−1/16"
+    },
+    {
+     "args": [
+      7,
+      12,
+      9
+     ],
+     "predicted": "−1/32",
+     "actual": "−1/64"
+    },
+    {
+     "args": [
+      9,
+      6,
+      13
+     ],
+     "predicted": "−6",
+     "actual": "−1/4"
+    },
+    {
+     "args": [
+      9,
+      8,
+      11
+     ],
+     "predicted": "−1/64",
+     "actual": "−1/16"
+    },
+    {
+     "args": [
+      11,
+      4,
+      13
+     ],
+     "predicted": "−1/128",
+     "actual": "−1/4"
+    },
+    {
+     "args": [
+      3,
+      14,
+      13
+     ],
+     "predicted": "−6",
+     "actual": "−1/8"
+    },
+    {
+     "args": [
+      5,
+      12,
+      13
+     ],
+     "predicted": "−6",
+     "actual": "−1/8"
+    },
+    {
+     "args": [
+      5,
+      14,
+      11
+     ],
+     "predicted": "−1/64",
+     "actual": "−1/32"
+    },
+    {
+     "args": [
+      7,
+      10,
+      13
+     ],
+     "predicted": "−6",
+     "actual": "−1/8"
+    },
+    {
+     "args": [
+      7,
+      12,
+      11
+     ],
+     "predicted": "−1/64",
+     "actual": "−1/32"
+    },
+    {
+     "args": [
+      7,
+      14,
+      9
+     ],
+     "predicted": "−1/32",
+     "actual": "−1/128"
+    },
+    {
+     "args": [
+      9,
+      8,
+      13
+     ],
+     "predicted": "−1/128",
+     "actual": "−1/8"
+    },
+    {
+     "args": [
+      9,
+      10,
+      11
+     ],
+     "predicted": "−1/64",
+     "actual": "−1/32"
+    },
+    {
+     "args": [
+      11,
+      6,
+      13
+     ],
+     "predicted": "−1/128",
+     "actual": "−1/8"
+    },
+    {
+     "args": [
+      5,
+      14,
+      13
+     ],
+     "predicted": "−6",
+     "actual": "−1/16"
+    },
+    {
+     "args": [
+      7,
+      12,
+      13
+     ],
+     "predicted": "−1/128",
+     "actual": "−1/16"
+    },
+    {
+     "args": [
+      9,
+      10,
+      13
+     ],
+     "predicted": "−1/128",
+     "actual": "−1/16"
+    },
+    {
+     "args": [
+      11,
+      8,
+      13
+     ],
+     "predicted": "−1/128",
+     "actual": "−1/16"
+    },
+    {
+     "args": [
+      7,
+      14,
+      13
+     ],
+     "predicted": "−1/128",
+     "actual": "−1/32"
+    },
+    {
+     "args": [
+      9,
+      12,
+      13
+     ],
+     "predicted": "−1/128",
+     "actual": "−1/32"
+    },
+    {
+     "args": [
+      9,
+      14,
+      11
+     ],
+     "predicted": "−1/64",
+     "actual": "−1/128"
+    },
+    {
+     "args": [
+      11,
+      10,
+      13
+     ],
+     "predicted": "−1/128",
+     "actual": "−1/32"
+    },
+    {
+     "args": [
+      9,
+      14,
+      13
+     ],
+     "predicted": "−1/128",
+     "actual": "−1/64"
+    },
+    {
+     "args": [
+      11,
+      12,
+      13
+     ],
+     "predicted": "−1/128",
+     "actual": "−1/64"
+    }
+   ],
+   "complete": true
+  },
+  "oeo-read": {
+   "statement": "Tables 5/6 as drawn, d = k − i ≥ 0: 0 if d = 0 (S(1,2,1) = *2); −2^(d−j−1) for 1 ≤ d ≤ j; −(d − j) for d > j",
+   "N": 14,
+   "checked": 196,
+   "holds": 196,
+   "fails": 0,
+   "silent": 0,
+   "failures": [],
+   "complete": true
+  },
+  "eee-2mod4": {
+   "statement": "EEE, 2j ≡ 2 (mod 4), j > 1, k ≥ i: (i−k) + j·* if i, k < j; (j−k−1) if k = j, i < j; (j−k) + k·* if exactly one of i, k > j",
+   "N": 14,
+   "checked": 68,
+   "holds": 41,
+   "fails": 27,
+   "silent": 16,
+   "failures": [
+    {
+     "args": [
+      2,
+      6,
+      8
+     ],
+     "predicted": "−1",
+     "actual": "−2"
+    },
+    {
+     "args": [
+      4,
+      6,
+      6
+     ],
+     "predicted": "−1",
+     "actual": "0"
+    },
+    {
+     "args": [
+      2,
+      6,
+      12
+     ],
+     "predicted": "−3",
+     "actual": "−2"
+    },
+    {
+     "args": [
+      4,
+      6,
+      10
+     ],
+     "predicted": "−2*",
+     "actual": "−1*"
+    },
+    {
+     "args": [
+      6,
+      6,
+      8
+     ],
+     "predicted": "−1",
+     "actual": "0"
+    },
+    {
+     "args": [
+      2,
+      6,
+      14
+     ],
+     "predicted": "−4*",
+     "actual": "−2*"
+    },
+    {
+     "args": [
+      2,
+      10,
+      10
+     ],
+     "predicted": "−1",
+     "actual": "−3"
+    },
+    {
+     "args": [
+      4,
+      6,
+      12
+     ],
+     "predicted": "−3",
+     "actual": "−1"
+    },
+    {
+     "args": [
+      6,
+      6,
+      10
+     ],
+     "predicted": "−2*",
+     "actual": "−1/4"
+    },
+    {
+     "args": [
+      2,
+      10,
+      12
+     ],
+     "predicted": "−1",
+     "actual": "−4"
+    },
+    {
+     "args": [
+      4,
+      6,
+      14
+     ],
+     "predicted": "−4*",
+     "actual": "−1*"
+    },
+    {
+     "args": [
+      4,
+      10,
+      10
+     ],
+     "predicted": "−1",
+     "actual": "−2"
+    },
+    {
+     "args": [
+      6,
+      6,
+      12
+     ],
+     "predicted": "−3",
+     "actual": "−1/2"
+    },
+    {
+     "args": [
+      2,
+      10,
+      14
+     ],
+     "predicted": "−2*",
+     "actual": "−4*"
+    },
+    {
+     "args": [
+      4,
+      10,
+      12
+     ],
+     "predicted": "−1",
+     "actual": "−3"
+    },
+    {
+     "args": [
+      6,
+      6,
+      14
+     ],
+     "predicted": "−4*",
+     "actual": "−1/2*"
+    },
+    {
+     "args": [
+      4,
+      10,
+      14
+     ],
+     "predicted": "−2*",
+     "actual": "−3*"
+    },
+    {
+     "args": [
+      6,
+      10,
+      12
+     ],
+     "predicted": "−1",
+     "actual": "−2"
+    },
+    {
+     "args": [
+      8,
+      10,
+      10
+     ],
+     "predicted": "−1",
+     "actual": "0"
+    },
+    {
+     "args": [
+      2,
+      14,
+      14
+     ],
+     "predicted": "−1",
+     "actual": "−5"
+    },
+    {
+     "args": [
+      4,
+      14,
+      14
+     ],
+     "predicted": "−1",
+     "actual": "−4"
+    },
+    {
+     "args": [
+      8,
+      10,
+      14
+     ],
+     "predicted": "−2*",
+     "actual": "−1*"
+    },
+    {
+     "args": [
+      10,
+      10,
+      12
+     ],
+     "predicted": "−1",
+     "actual": "0"
+    },
+    {
+     "args": [
+      6,
+      14,
+      14
+     ],
+     "predicted": "−1",
+     "actual": "−3"
+    },
+    {
+     "args": [
+      10,
+      10,
+      14
+     ],
+     "predicted": "−2*",
+     "actual": "−1/4"
+    },
+    {
+     "args": [
+      8,
+      14,
+      14
+     ],
+     "predicted": "−1",
+     "actual": "−2"
+    },
+    {
+     "args": [
+      12,
+      14,
+      14
+     ],
+     "predicted": "−1",
+     "actual": "0"
+    }
+   ],
+   "complete": true
+  },
+  "eee-2mod4-conj": {
+   "statement": "Conjecture, 2j ≡ 2 (mod 4): for i, k > j, S(2i, 2j, 2k) = S(2(i−j), 2, 2(k−j))",
+   "N": 14,
+   "checked": 56,
+   "holds": 36,
+   "fails": 20,
+   "silent": 0,
+   "failures": [
+    {
+     "args": [
+      4,
+      2,
+      10
+     ],
+     "predicted": "−1/2",
+     "actual": "−1/4*"
+    },
+    {
+     "args": [
+      10,
+      2,
+      4
+     ],
+     "predicted": "1/2",
+     "actual": "1/4*"
+    },
+    {
+     "args": [
+      4,
+      2,
+      12
+     ],
+     "predicted": "−1/2*",
+     "actual": "−1/4"
+    },
+    {
+     "args": [
+      6,
+      2,
+      10
+     ],
+     "predicted": "−1/4",
+     "actual": "−1/16"
+    },
+    {
+     "args": [
+      10,
+      2,
+      6
+     ],
+     "predicted": "1/4",
+     "actual": "1/16"
+    },
+    {
+     "args": [
+      12,
+      2,
+      4
+     ],
+     "predicted": "1/2*",
+     "actual": "1/4"
+    },
+    {
+     "args": [
+      4,
+      2,
+      14
+     ],
+     "predicted": "−1/2",
+     "actual": "−1/4*"
+    },
+    {
+     "args": [
+      6,
+      2,
+      12
+     ],
+     "predicted": "−1/4*",
+     "actual": "−1/8"
+    },
+    {
+     "args": [
+      12,
+      2,
+      6
+     ],
+     "predicted": "1/4*",
+     "actual": "1/8"
+    },
+    {
+     "args": [
+      14,
+      2,
+      4
+     ],
+     "predicted": "1/2",
+     "actual": "1/4*"
+    },
+    {
+     "args": [
+      6,
+      2,
+      14
+     ],
+     "predicted": "−1/4",
+     "actual": "−1/8*"
+    },
+    {
+     "args": [
+      14,
+      2,
+      6
+     ],
+     "predicted": "1/4",
+     "actual": "1/8*"
+    },
+    {
+     "args": [
+      8,
+      2,
+      14
+     ],
+     "predicted": "−1/8",
+     "actual": "−1/16*"
+    },
+    {
+     "args": [
+      14,
+      2,
+      8
+     ],
+     "predicted": "1/8",
+     "actual": "1/16*"
+    },
+    {
+     "args": [
+      10,
+      2,
+      14
+     ],
+     "predicted": "−1/16",
+     "actual": "−1/64"
+    },
+    {
+     "args": [
+      14,
+      2,
+      10
+     ],
+     "predicted": "1/16",
+     "actual": "1/64"
+    },
+    {
+     "args": [
+      8,
+      6,
+      14
+     ],
+     "predicted": "−1/2",
+     "actual": "−1/4*"
+    },
+    {
+     "args": [
+      14,
+      6,
+      8
+     ],
+     "predicted": "1/2",
+     "actual": "1/4*"
+    },
+    {
+     "args": [
+      10,
+      6,
+      14
+     ],
+     "predicted": "−1/4",
+     "actual": "−1/16"
+    },
+    {
+     "args": [
+      14,
+      6,
+      10
+     ],
+     "predicted": "1/4",
+     "actual": "1/16"
+    }
+   ],
+   "complete": true
+  },
+  "eee-0mod4": {
+   "statement": "EEE, 2j ≡ 0 (mod 4), j > 2 (as printed), k ≥ i: i − k if i, k < j; (j−k) + k·* if i < j < k",
+   "N": 14,
+   "checked": 35,
+   "holds": 25,
+   "fails": 10,
+   "silent": 21,
+   "failures": [
+    {
+     "args": [
+      2,
+      8,
+      10
+     ],
+     "predicted": "−1*",
+     "actual": "−3*"
+    },
+    {
+     "args": [
+      2,
+      8,
+      12
+     ],
+     "predicted": "−2",
+     "actual": "−3"
+    },
+    {
+     "args": [
+      4,
+      8,
+      10
+     ],
+     "predicted": "−1*",
+     "actual": "−2*"
+    },
+    {
+     "args": [
+      4,
+      8,
+      14
+     ],
+     "predicted": "−3*",
+     "actual": "−2*"
+    },
+    {
+     "args": [
+      6,
+      8,
+      12
+     ],
+     "predicted": "−2",
+     "actual": "−1"
+    },
+    {
+     "args": [
+      2,
+      12,
+      14
+     ],
+     "predicted": "−1*",
+     "actual": "−5*"
+    },
+    {
+     "args": [
+      6,
+      8,
+      14
+     ],
+     "predicted": "−3*",
+     "actual": "−1*"
+    },
+    {
+     "args": [
+      4,
+      12,
+      14
+     ],
+     "predicted": "−1*",
+     "actual": "−4*"
+    },
+    {
+     "args": [
+      6,
+      12,
+      14
+     ],
+     "predicted": "−1*",
+     "actual": "−3*"
+    },
+    {
+     "args": [
+      8,
+      12,
+      14
+     ],
+     "predicted": "−1*",
+     "actual": "−2*"
+    }
+   ],
+   "complete": true
+  },
+  "eee-0mod4-conj": {
+   "statement": "Conjecture, 2j ≡ 0 (mod 4): if i, k > j, S(2i, 2j, 2k) = S(2(i−j), 4, 2(k−j))",
+   "N": 14,
+   "checked": 35,
+   "holds": 15,
+   "fails": 20,
+   "silent": 0,
+   "failures": [
+    {
+     "args": [
+      6,
+      4,
+      10
+     ],
+     "predicted": "−1/2",
+     "actual": "−1/4*"
+    },
+    {
+     "args": [
+      10,
+      4,
+      6
+     ],
+     "predicted": "1/2",
+     "actual": "1/4*"
+    },
+    {
+     "args": [
+      6,
+      4,
+      12
+     ],
+     "predicted": "−1/2*",
+     "actual": "−1/4"
+    },
+    {
+     "args": [
+      8,
+      4,
+      10
+     ],
+     "predicted": "−1/4",
+     "actual": "−1/16"
+    },
+    {
+     "args": [
+      10,
+      4,
+      8
+     ],
+     "predicted": "1/4",
+     "actual": "1/16"
+    },
+    {
+     "args": [
+      12,
+      4,
+      6
+     ],
+     "predicted": "1/2*",
+     "actual": "1/4"
+    },
+    {
+     "args": [
+      6,
+      4,
+      14
+     ],
+     "predicted": "−1/2",
+     "actual": "−1/4*"
+    },
+    {
+     "args": [
+      8,
+      4,
+      12
+     ],
+     "predicted": "−1/4*",
+     "actual": "−1/8"
+    },
+    {
+     "args": [
+      12,
+      4,
+      8
+     ],
+     "predicted": "1/4*",
+     "actual": "1/8"
+    },
+    {
+     "args": [
+      14,
+      4,
+      6
+     ],
+     "predicted": "1/2",
+     "actual": "1/4*"
+    },
+    {
+     "args": [
+      8,
+      4,
+      14
+     ],
+     "predicted": "−1/4",
+     "actual": "−1/8*"
+    },
+    {
+     "args": [
+      14,
+      4,
+      8
+     ],
+     "predicted": "1/4",
+     "actual": "1/8*"
+    },
+    {
+     "args": [
+      10,
+      4,
+      14
+     ],
+     "predicted": "−1/8",
+     "actual": "−1/16*"
+    },
+    {
+     "args": [
+      14,
+      4,
+      10
+     ],
+     "predicted": "1/8",
+     "actual": "1/16*"
+    },
+    {
+     "args": [
+      12,
+      4,
+      14
+     ],
+     "predicted": "−1/16",
+     "actual": "−1/64"
+    },
+    {
+     "args": [
+      14,
+      4,
+      12
+     ],
+     "predicted": "1/16",
+     "actual": "1/64"
+    },
+    {
+     "args": [
+      10,
+      8,
+      14
+     ],
+     "predicted": "−1/2",
+     "actual": "−1/4*"
+    },
+    {
+     "args": [
+      14,
+      8,
+      10
+     ],
+     "predicted": "1/2",
+     "actual": "1/4*"
+    },
+    {
+     "args": [
+      12,
+      8,
+      14
+     ],
+     "predicted": "−1/4",
+     "actual": "−1/16"
+    },
+    {
+     "args": [
+      14,
+      8,
+      12
+     ],
+     "predicted": "1/4",
+     "actual": "1/16"
+    }
+   ],
+   "complete": true
+  },
+  "decomposition": {
+   "statement": "Conjecture: S(k, m··, n) = S(k, m) + (third run as it lies), except S(2j, 2j··, 2k) with j odd",
+   "N": 14,
+   "checked": 2716,
+   "holds": 2662,
+   "fails": 54,
+   "silent": 28,
+   "failures": [
+    {
+     "args": [
+      1,
+      2,
+      2
+     ],
+     "predicted": "↑",
+     "actual": "⇑"
+    },
+    {
+     "args": [
+      1,
+      2,
+      4
+     ],
+     "predicted": "↑*",
+     "actual": "3·↑*"
+    },
+    {
+     "args": [
+      1,
+      4,
+      2
+     ],
+     "predicted": "⇑*",
+     "actual": "3·↑*"
+    },
+    {
+     "args": [
+      1,
+      2,
+      6
+     ],
+     "predicted": "↑",
+     "actual": "4·↑"
+    },
+    {
+     "args": [
+      1,
+      4,
+      4
+     ],
+     "predicted": "⇑",
+     "actual": "4·↑"
+    },
+    {
+     "args": [
+      1,
+      6,
+      2
+     ],
+     "predicted": "3·↑",
+     "actual": "4·↑"
+    },
+    {
+     "args": [
+      1,
+      2,
+      8
+     ],
+     "predicted": "↑*",
+     "actual": "5·↑*"
+    },
+    {
+     "args": [
+      1,
+      4,
+      6
+     ],
+     "predicted": "⇑*",
+     "actual": "5·↑*"
+    },
+    {
+     "args": [
+      1,
+      6,
+      4
+     ],
+     "predicted": "3·↑*",
+     "actual": "5·↑*"
+    },
+    {
+     "args": [
+      1,
+      8,
+      2
+     ],
+     "predicted": "4·↑*",
+     "actual": "5·↑*"
+    },
+    {
+     "args": [
+      1,
+      2,
+      10
+     ],
+     "predicted": "↑",
+     "actual": "6·↑"
+    },
+    {
+     "args": [
+      1,
+      4,
+      8
+     ],
+     "predicted": "⇑",
+     "actual": "6·↑"
+    },
+    {
+     "args": [
+      1,
+      6,
+      6
+     ],
+     "predicted": "3·↑",
+     "actual": "6·↑"
+    },
+    {
+     "args": [
+      1,
+      8,
+      4
+     ],
+     "predicted": "4·↑",
+     "actual": "6·↑"
+    },
+    {
+     "args": [
+      1,
+      10,
+      2
+     ],
+     "predicted": "5·↑",
+     "actual": "6·↑"
+    },
+    {
+     "args": [
+      3,
+      4,
+      6
+     ],
+     "predicted": "1/4*",
+     "actual": "1/8"
+    },
+    {
+     "args": [
+      1,
+      2,
+      12
+     ],
+     "predicted": "↑*",
+     "actual": "7·↑*"
+    },
+    {
+     "args": [
+      1,
+      4,
+      10
+     ],
+     "predicted": "⇑*",
+     "actual": "7·↑*"
+    },
+    {
+     "args": [
+      1,
+      6,
+      8
+     ],
+     "predicted": "3·↑*",
+     "actual": "7·↑*"
+    },
+    {
+     "args": [
+      1,
+      8,
+      6
+     ],
+     "predicted": "4·↑*",
+     "actual": "7·↑*"
+    },
+    {
+     "args": [
+      1,
+      10,
+      4
+     ],
+     "predicted": "5·↑*",
+     "actual": "7·↑*"
+    },
+    {
+     "args": [
+      1,
+      12,
+      2
+     ],
+     "predicted": "6·↑*",
+     "actual": "7·↑*"
+    },
+    {
+     "args": [
+      3,
+      4,
+      8
+     ],
+     "predicted": "1/4",
+     "actual": "1/16"
+    },
+    {
+     "args": [
+      1,
+      2,
+      14
+     ],
+     "predicted": "↑",
+     "actual": "8·↑"
+    },
+    {
+     "args": [
+      1,
+      4,
+      12
+     ],
+     "predicted": "⇑",
+     "actual": "8·↑"
+    },
+    {
+     "args": [
+      1,
+      6,
+      10
+     ],
+     "predicted": "3·↑",
+     "actual": "8·↑"
+    },
+    {
+     "args": [
+      1,
+      8,
+      8
+     ],
+     "predicted": "4·↑",
+     "actual": "8·↑"
+    },
+    {
+     "args": [
+      1,
+      10,
+      6
+     ],
+     "predicted": "5·↑",
+     "actual": "8·↑"
+    },
+    {
+     "args": [
+      1,
+      12,
+      4
+     ],
+     "predicted": "6·↑",
+     "actual": "8·↑"
+    },
+    {
+     "args": [
+      1,
+      14,
+      2
+     ],
+     "predicted": "7·↑",
+     "actual": "8·↑"
+    },
+    {
+     "args": [
+      3,
+      4,
+      10
+     ],
+     "predicted": "1/4*",
+     "actual": "1/32"
+    },
+    {
+     "args": [
+      1,
+      4,
+      14
+     ],
+     "predicted": "⇑*",
+     "actual": "9·↑*"
+    },
+    {
+     "args": [
+      1,
+      6,
+      12
+     ],
+     "predicted": "3·↑*",
+     "actual": "9·↑*"
+    },
+    {
+     "args": [
+      1,
+      8,
+      10
+     ],
+     "predicted": "4·↑*",
+     "actual": "9·↑*"
+    },
+    {
+     "args": [
+      1,
+      10,
+      8
+     ],
+     "predicted": "5·↑*",
+     "actual": "9·↑*"
+    },
+    {
+     "args": [
+      1,
+      12,
+      6
+     ],
+     "predicted": "6·↑*",
+     "actual": "9·↑*"
+    },
+    {
+     "args": [
+      1,
+      14,
+      4
+     ],
+     "predicted": "7·↑*",
+     "actual": "9·↑*"
+    },
+    {
+     "args": [
+      3,
+      4,
+      12
+     ],
+     "predicted": "1/4",
+     "actual": "1/64"
+    },
+    {
+     "args": [
+      1,
+      6,
+      14
+     ],
+     "predicted": "3·↑",
+     "actual": "10·↑"
+    },
+    {
+     "args": [
+      1,
+      8,
+      12
+     ],
+     "predicted": "4·↑",
+     "actual": "10·↑"
+    },
+    {
+     "args": [
+      1,
+      10,
+      10
+     ],
+     "predicted": "5·↑",
+     "actual": "10·↑"
+    },
+    {
+     "args": [
+      1,
+      12,
+      8
+     ],
+     "predicted": "6·↑",
+     "actual": "10·↑"
+    },
+    {
+     "args": [
+      1,
+      14,
+      6
+     ],
+     "predicted": "7·↑",
+     "actual": "10·↑"
+    },
+    {
+     "args": [
+      3,
+      4,
+      14
+     ],
+     "predicted": "1/4*",
+     "actual": "1/128"
+    },
+    {
+     "args": [
+      1,
+      8,
+      14
+     ],
+     "predicted": "4·↑*",
+     "actual": "11·↑*"
+    },
+    {
+     "args": [
+      1,
+      10,
+      12
+     ],
+     "predicted": "5·↑*",
+     "actual": "11·↑*"
+    },
+    {
+     "args": [
+      1,
+      12,
+      10
+     ],
+     "predicted": "6·↑*",
+     "actual": "11·↑*"
+    },
+    {
+     "args": [
+      1,
+      14,
+      8
+     ],
+     "predicted": "7·↑*",
+     "actual": "11·↑*"
+    },
+    {
+     "args": [
+      1,
+      10,
+      14
+     ],
+     "predicted": "5·↑",
+     "actual": "12·↑"
+    },
+    {
+     "args": [
+      1,
+      12,
+      12
+     ],
+     "predicted": "6·↑",
+     "actual": "12·↑"
+    },
+    {
+     "args": [
+      1,
+      14,
+      10
+     ],
+     "predicted": "7·↑",
+     "actual": "12·↑"
+    },
+    {
+     "args": [
+      1,
+      12,
+      14
+     ],
+     "predicted": "6·↑*",
+     "actual": "13·↑*"
+    },
+    {
+     "args": [
+      1,
+      14,
+      12
+     ],
+     "predicted": "7·↑*",
+     "actual": "13·↑*"
+    },
+    {
+     "args": [
+      1,
+      14,
+      14
+     ],
+     "predicted": "7·↑",
+     "actual": "14·↑"
+    }
+   ],
+   "complete": true
+  },
+  "decomposition-exceptions": {
+   "statement": "The excepted family S(2j, 2j··, 2k), j odd: does it really fail to decompose?",
+   "N": 14,
+   "checked": 28,
+   "holds": 0,
+   "fails": 28,
+   "silent": 0,
+   "failures": [
+    {
+     "args": [
+      2,
+      2,
+      2
+     ],
+     "predicted": "*",
+     "actual": "1/4"
+    },
+    {
+     "args": [
+      2,
+      2,
+      4
+     ],
+     "predicted": "0",
+     "actual": "1/2"
+    },
+    {
+     "args": [
+      2,
+      2,
+      6
+     ],
+     "predicted": "*",
+     "actual": "1/2*"
+    },
+    {
+     "args": [
+      2,
+      2,
+      8
+     ],
+     "predicted": "0",
+     "actual": "1/2"
+    },
+    {
+     "args": [
+      2,
+      2,
+      10
+     ],
+     "predicted": "*",
+     "actual": "1/2*"
+    },
+    {
+     "args": [
+      6,
+      6,
+      2
+     ],
+     "predicted": "2*",
+     "actual": "9/4"
+    },
+    {
+     "args": [
+      2,
+      2,
+      12
+     ],
+     "predicted": "0",
+     "actual": "1/2"
+    },
+    {
+     "args": [
+      6,
+      6,
+      4
+     ],
+     "predicted": "2",
+     "actual": "5/2"
+    },
+    {
+     "args": [
+      2,
+      2,
+      14
+     ],
+     "predicted": "*",
+     "actual": "1/2*"
+    },
+    {
+     "args": [
+      6,
+      6,
+      6
+     ],
+     "predicted": "2*",
+     "actual": "5/2*"
+    },
+    {
+     "args": [
+      6,
+      6,
+      8
+     ],
+     "predicted": "2",
+     "actual": "5/2"
+    },
+    {
+     "args": [
+      6,
+      6,
+      10
+     ],
+     "predicted": "2*",
+     "actual": "5/2*"
+    },
+    {
+     "args": [
+      10,
+      10,
+      2
+     ],
+     "predicted": "4*",
+     "actual": "17/4"
+    },
+    {
+     "args": [
+      6,
+      6,
+      12
+     ],
+     "predicted": "2",
+     "actual": "5/2"
+    },
+    {
+     "args": [
+      10,
+      10,
+      4
+     ],
+     "predicted": "4",
+     "actual": "9/2"
+    },
+    {
+     "args": [
+      6,
+      6,
+      14
+     ],
+     "predicted": "2*",
+     "actual": "5/2*"
+    },
+    {
+     "args": [
+      10,
+      10,
+      6
+     ],
+     "predicted": "4*",
+     "actual": "9/2*"
+    },
+    {
+     "args": [
+      10,
+      10,
+      8
+     ],
+     "predicted": "4",
+     "actual": "9/2"
+    },
+    {
+     "args": [
+      10,
+      10,
+      10
+     ],
+     "predicted": "4*",
+     "actual": "9/2*"
+    },
+    {
+     "args": [
+      14,
+      14,
+      2
+     ],
+     "predicted": "6*",
+     "actual": "25/4"
+    },
+    {
+     "args": [
+      10,
+      10,
+      12
+     ],
+     "predicted": "4",
+     "actual": "9/2"
+    },
+    {
+     "args": [
+      14,
+      14,
+      4
+     ],
+     "predicted": "6",
+     "actual": "13/2"
+    },
+    {
+     "args": [
+      10,
+      10,
+      14
+     ],
+     "predicted": "4*",
+     "actual": "9/2*"
+    },
+    {
+     "args": [
+      14,
+      14,
+      6
+     ],
+     "predicted": "6*",
+     "actual": "13/2*"
+    },
+    {
+     "args": [
+      14,
+      14,
+      8
+     ],
+     "predicted": "6",
+     "actual": "13/2"
+    },
+    {
+     "args": [
+      14,
+      14,
+      10
+     ],
+     "predicted": "6*",
+     "actual": "13/2*"
+    },
+    {
+     "args": [
+      14,
+      14,
+      12
+     ],
+     "predicted": "6",
+     "actual": "13/2"
+    },
+    {
+     "args": [
+      14,
+      14,
+      14
+     ],
+     "predicted": "6*",
+     "actual": "13/2*"
+    }
+   ],
+   "complete": true
+  }
+ }
+}

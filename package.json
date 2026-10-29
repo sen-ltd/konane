@@ -1,0 +1,22 @@
+{
+  "name": "konane",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "1×n Konane in the browser with an exact combinatorial-game-theory engine: canonical values, every jump marked winning or losing, a golden-ratio argument that splits a row into independent parts, and every table, formula and conjecture of Chan and Tsai's '1×n Konane: A Summary of Results' (2002) recomputed. TypeScript, no runtime deps.",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "serve": "vite preview --port 4173",
+    "test": "vitest run",
+    "verify": "node tools/sweep.mts && node tools/checks.mts 14 && node tools/checks.mts 14 1800 eee eee-2mod4,eee-2mod4-conj,eee-0mod4,eee-0mod4-conj,eee-2mod4-read,eee-0mod4-read,eee-shift-read && node tools/disputes.mts && node tools/control.mts && node tools/report.mts"
+  },
+  "devDependencies": {
+    "@types/node": "^22.20.1",
+    "typescript": "^5.6.3",
+    "vite": "^5.4.11",
+    "vitest": "^2.1.5"
+  },
+  "license": "MIT"
+}

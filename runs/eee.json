@@ -1,0 +1,504 @@
+{
+ "N": 14,
+ "elapsedMs": 49699,
+ "positions": 1026883,
+ "claims": {
+  "eee-2mod4": {
+   "statement": "EEE, 2j ≡ 2 (mod 4), j > 1, k ≥ i: (i−k) + j·* if i, k < j; (j−k−1) if k = j, i < j; (j−k) + k·* if exactly one of i, k > j",
+   "N": 14,
+   "checked": 68,
+   "holds": 41,
+   "fails": 27,
+   "silent": 16,
+   "failures": [
+    {
+     "args": [
+      2,
+      6,
+      8
+     ],
+     "predicted": "−1",
+     "actual": "−2"
+    },
+    {
+     "args": [
+      4,
+      6,
+      6
+     ],
+     "predicted": "−1",
+     "actual": "0"
+    },
+    {
+     "args": [
+      2,
+      6,
+      12
+     ],
+     "predicted": "−3",
+     "actual": "−2"
+    },
+    {
+     "args": [
+      4,
+      6,
+      10
+     ],
+     "predicted": "−2*",
+     "actual": "−1*"
+    },
+    {
+     "args": [
+      6,
+      6,
+      8
+     ],
+     "predicted": "−1",
+     "actual": "0"
+    },
+    {
+     "args": [
+      2,
+      6,
+      14
+     ],
+     "predicted": "−4*",
+     "actual": "−2*"
+    },
+    {
+     "args": [
+      2,
+      10,
+      10
+     ],
+     "predicted": "−1",
+     "actual": "−3"
+    },
+    {
+     "args": [
+      4,
+      6,
+      12
+     ],
+     "predicted": "−3",
+     "actual": "−1"
+    },
+    {
+     "args": [
+      6,
+      6,
+      10
+     ],
+     "predicted": "−2*",
+     "actual": "−1/4"
+    },
+    {
+     "args": [
+      2,
+      10,
+      12
+     ],
+     "predicted": "−1",
+     "actual": "−4"
+    },
+    {
+     "args": [
+      4,
+      6,
+      14
+     ],
+     "predicted": "−4*",
+     "actual": "−1*"
+    },
+    {
+     "args": [
+      4,
+      10,
+      10
+     ],
+     "predicted": "−1",
+     "actual": "−2"
+    },
+    {
+     "args": [
+      6,
+      6,
+      12
+     ],
+     "predicted": "−3",
+     "actual": "−1/2"
+    },
+    {
+     "args": [
+      2,
+      10,
+      14
+     ],
+     "predicted": "−2*",
+     "actual": "−4*"
+    },
+    {
+     "args": [
+      4,
+      10,
+      12
+     ],
+     "predicted": "−1",
+     "actual": "−3"
+    },
+    {
+     "args": [
+      6,
+      6,
+      14
+     ],
+     "predicted": "−4*",
+     "actual": "−1/2*"
+    },
+    {
+     "args": [
+      4,
+      10,
+      14
+     ],
+     "predicted": "−2*",
+     "actual": "−3*"
+    },
+    {
+     "args": [
+      6,
+      10,
+      12
+     ],
+     "predicted": "−1",
+     "actual": "−2"
+    },
+    {
+     "args": [
+      8,
+      10,
+      10
+     ],
+     "predicted": "−1",
+     "actual": "0"
+    },
+    {
+     "args": [
+      2,
+      14,
+      14
+     ],
+     "predicted": "−1",
+     "actual": "−5"
+    },
+    {
+     "args": [
+      4,
+      14,
+      14
+     ],
+     "predicted": "−1",
+     "actual": "−4"
+    },
+    {
+     "args": [
+      8,
+      10,
+      14
+     ],
+     "predicted": "−2*",
+     "actual": "−1*"
+    },
+    {
+     "args": [
+      10,
+      10,
+      12
+     ],
+     "predicted": "−1",
+     "actual": "0"
+    },
+    {
+     "args": [
+      6,
+      14,
+      14
+     ],
+     "predicted": "−1",
+     "actual": "−3"
+    },
+    {
+     "args": [
+      10,
+      10,
+      14
+     ],
+     "predicted": "−2*",
+     "actual": "−1/4"
+    },
+    {
+     "args": [
+      8,
+      14,
+      14
+     ],
+     "predicted": "−1",
+     "actual": "−2"
+    },
+    {
+     "args": [
+      12,
+      14,
+      14
+     ],
+     "predicted": "−1",
+     "actual": "0"
+    }
+   ],
+   "complete": true
+  },
+  "eee-2mod4-conj": {
+   "statement": "Conjecture, 2j ≡ 2 (mod 4): for i, k > j, S(2i, 2j, 2k) = S(2(i−j), 2, 2(k−j))",
+   "N": 14,
+   "checked": 20,
+   "holds": 16,
+   "fails": 4,
+   "silent": 0,
+   "failures": [
+    {
+     "args": [
+      8,
+      6,
+      14
+     ],
+     "predicted": "−1/2",
+     "actual": "−1/4*"
+    },
+    {
+     "args": [
+      14,
+      6,
+      8
+     ],
+     "predicted": "1/2",
+     "actual": "1/4*"
+    },
+    {
+     "args": [
+      10,
+      6,
+      14
+     ],
+     "predicted": "−1/4",
+     "actual": "−1/16"
+    },
+    {
+     "args": [
+      14,
+      6,
+      10
+     ],
+     "predicted": "1/4",
+     "actual": "1/16"
+    }
+   ],
+   "complete": true
+  },
+  "eee-0mod4": {
+   "statement": "EEE, 2j ≡ 0 (mod 4), j > 2 (as printed), k ≥ i: i − k if i, k < j; (j−k) + k·* if i < j < k",
+   "N": 14,
+   "checked": 35,
+   "holds": 25,
+   "fails": 10,
+   "silent": 21,
+   "failures": [
+    {
+     "args": [
+      2,
+      8,
+      10
+     ],
+     "predicted": "−1*",
+     "actual": "−3*"
+    },
+    {
+     "args": [
+      2,
+      8,
+      12
+     ],
+     "predicted": "−2",
+     "actual": "−3"
+    },
+    {
+     "args": [
+      4,
+      8,
+      10
+     ],
+     "predicted": "−1*",
+     "actual": "−2*"
+    },
+    {
+     "args": [
+      4,
+      8,
+      14
+     ],
+     "predicted": "−3*",
+     "actual": "−2*"
+    },
+    {
+     "args": [
+      6,
+      8,
+      12
+     ],
+     "predicted": "−2",
+     "actual": "−1"
+    },
+    {
+     "args": [
+      2,
+      12,
+      14
+     ],
+     "predicted": "−1*",
+     "actual": "−5*"
+    },
+    {
+     "args": [
+      6,
+      8,
+      14
+     ],
+     "predicted": "−3*",
+     "actual": "−1*"
+    },
+    {
+     "args": [
+      4,
+      12,
+      14
+     ],
+     "predicted": "−1*",
+     "actual": "−4*"
+    },
+    {
+     "args": [
+      6,
+      12,
+      14
+     ],
+     "predicted": "−1*",
+     "actual": "−3*"
+    },
+    {
+     "args": [
+      8,
+      12,
+      14
+     ],
+     "predicted": "−1*",
+     "actual": "−2*"
+    }
+   ],
+   "complete": true
+  },
+  "eee-0mod4-conj": {
+   "statement": "Conjecture, 2j ≡ 0 (mod 4): if i, k > j, S(2i, 2j, 2k) = S(2(i−j), 4, 2(k−j))",
+   "N": 14,
+   "checked": 10,
+   "holds": 4,
+   "fails": 6,
+   "silent": 0,
+   "failures": [
+    {
+     "args": [
+      10,
+      8,
+      12
+     ],
+     "predicted": "−1",
+     "actual": "−1/4"
+    },
+    {
+     "args": [
+      12,
+      8,
+      10
+     ],
+     "predicted": "1",
+     "actual": "1/4"
+    },
+    {
+     "args": [
+      10,
+      8,
+      14
+     ],
+     "predicted": "−1*",
+     "actual": "−1/4*"
+    },
+    {
+     "args": [
+      14,
+      8,
+      10
+     ],
+     "predicted": "1*",
+     "actual": "1/4*"
+    },
+    {
+     "args": [
+      12,
+      8,
+      14
+     ],
+     "predicted": "−1/4",
+     "actual": "−1/16"
+    },
+    {
+     "args": [
+      14,
+      8,
+      12
+     ],
+     "predicted": "1/4",
+     "actual": "1/16"
+    }
+   ],
+   "complete": true
+  },
+  "eee-2mod4-read": {
+   "statement": "EEE, 2j ≡ 2 (mod 4), j > 1, k ≥ i, read from Table 7: (i−k) + * if i, k < j; i − j + 1 if k = j > i; (i−j) + k·* if i < j < k",
+   "N": 14,
+   "checked": 62,
+   "holds": 62,
+   "fails": 0,
+   "silent": 22,
+   "failures": [],
+   "complete": true
+  },
+  "eee-0mod4-read": {
+   "statement": "EEE, 2j ≡ 0 (mod 4), j > 2, k ≥ i, read from Table 8: i − k if i, k ≤ j; (i−j) + k·* if i < j < k",
+   "N": 14,
+   "checked": 45,
+   "holds": 45,
+   "fails": 0,
+   "silent": 11,
+   "failures": [],
+   "complete": true
+  },
+  "eee-shift-read": {
+   "statement": "Both EEE conjectures with the shift read off the tables: for i, k ≥ j, S(2i, 2j, 2k) = S(2i − 2j + 2, 2, 2k − 2j + 2) (2j ≡ 2 mod 4, j > 1) or S(2i − 2j + 4, 4, 2k − 2j + 4) (2j ≡ 0 mod 4, j > 2)",
+   "N": 14,
+   "checked": 55,
+   "holds": 55,
+   "fails": 0,
+   "silent": 0,
+   "failures": [],
+   "complete": true
+  }
+ }
+}

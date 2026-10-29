@@ -1,0 +1,245 @@
+{
+ "cells": 749,
+ "sweepMs": 39884,
+ "control": {
+  "maxLen": 13,
+  "rows": 8192,
+  "splitRows": 5902,
+  "mismatches": 0
+ },
+ "disputes": [
+  {
+   "cell": [
+    5,
+    6,
+    6
+   ],
+   "paper": "17/4",
+   "where": "Table 2, m = 6",
+   "whole": "13/4",
+   "split": "13/4",
+   "ms": 4126
+  },
+  {
+   "cell": [
+    5,
+    6,
+    8
+   ],
+   "paper": "9/2",
+   "where": "Table 2, m = 6",
+   "whole": "17/4",
+   "split": "17/4",
+   "ms": 205
+  },
+  {
+   "cell": [
+    5,
+    6,
+    10
+   ],
+   "paper": "5",
+   "where": "Table 2, m = 6",
+   "whole": "9/2",
+   "split": "9/2",
+   "ms": 193
+  },
+  {
+   "cell": [
+    10,
+    2,
+    14
+   ],
+   "paper": "1/64",
+   "where": "Table 7, m = 2",
+   "whole": "−1/64",
+   "split": "−1/64",
+   "ms": 7610
+  },
+  {
+   "cell": [
+    14,
+    2,
+    10
+   ],
+   "paper": "1/16",
+   "where": "Table 7, m = 2",
+   "whole": "1/64",
+   "split": "1/64",
+   "ms": 3449
+  },
+  {
+   "cell": [
+    12,
+    4,
+    14
+   ],
+   "paper": "−1/16",
+   "where": "Table 8, m = 4",
+   "whole": "−1/64",
+   "split": "−1/64",
+   "ms": 17847
+  },
+  {
+   "cell": [
+    14,
+    4,
+    12
+   ],
+   "paper": "1/16",
+   "where": "Table 8, m = 4",
+   "whole": "1/64",
+   "split": "1/64",
+   "ms": 8779
+  }
+ ],
+ "claims": {
+  "ernst": {
+   "checked": 14,
+   "holds": 14,
+   "fails": 0,
+   "N": 14
+  },
+  "scott-odd-odd": {
+   "checked": 49,
+   "holds": 49,
+   "fails": 0,
+   "N": 14
+  },
+  "scott-odd-even": {
+   "checked": 49,
+   "holds": 49,
+   "fails": 0,
+   "N": 14
+  },
+  "scott-even-even": {
+   "checked": 28,
+   "holds": 28,
+   "fails": 0,
+   "N": 14
+  },
+  "ooo": {
+   "checked": 343,
+   "holds": 343,
+   "fails": 0,
+   "N": 14
+  },
+  "oee": {
+   "checked": 137,
+   "holds": 137,
+   "fails": 0,
+   "N": 14
+  },
+  "eoe": {
+   "checked": 188,
+   "holds": 91,
+   "fails": 97,
+   "N": 14
+  },
+  "eoe-shifted": {
+   "checked": 91,
+   "holds": 91,
+   "fails": 0,
+   "N": 14
+  },
+  "oeo-printed": {
+   "checked": 196,
+   "holds": 61,
+   "fails": 135,
+   "N": 14
+  },
+  "oeo-read": {
+   "checked": 196,
+   "holds": 196,
+   "fails": 0,
+   "N": 14
+  },
+  "eee-2mod4": {
+   "checked": 68,
+   "holds": 41,
+   "fails": 27,
+   "N": 14
+  },
+  "eee-2mod4-conj": {
+   "checked": 20,
+   "holds": 16,
+   "fails": 4,
+   "N": 14
+  },
+  "eee-0mod4": {
+   "checked": 35,
+   "holds": 25,
+   "fails": 10,
+   "N": 14
+  },
+  "eee-0mod4-conj": {
+   "checked": 10,
+   "holds": 4,
+   "fails": 6,
+   "N": 14
+  },
+  "decomposition": {
+   "checked": 2716,
+   "holds": 2662,
+   "fails": 54,
+   "N": 14
+  },
+  "decomposition-exceptions": {
+   "checked": 28,
+   "holds": 0,
+   "fails": 28,
+   "N": 14
+  },
+  "eee-2mod4-read": {
+   "checked": 62,
+   "holds": 62,
+   "fails": 0,
+   "N": 14
+  },
+  "eee-0mod4-read": {
+   "checked": 45,
+   "holds": 45,
+   "fails": 0,
+   "N": 14
+  },
+  "eee-shift-read": {
+   "checked": 55,
+   "holds": 55,
+   "fails": 0,
+   "N": 14
+  }
+ },
+ "decomposition": {
+  "checked": 2716,
+  "fails": 54,
+  "k1": 49,
+  "k1Merged": 49,
+  "other": [
+   [
+    3,
+    4,
+    6
+   ],
+   [
+    3,
+    4,
+    8
+   ],
+   [
+    3,
+    4,
+    10
+   ],
+   [
+    3,
+    4,
+    12
+   ],
+   [
+    3,
+    4,
+    14
+   ]
+  ]
+ }
+}
