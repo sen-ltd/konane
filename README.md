@@ -76,3 +76,10 @@ npm run verify     # all of the below, then src/findings.json and runs/summary.j
 ## License
 
 MIT
+
+<!-- sen-publish:links -->
+## Links
+
+- 🌐 Demo: https://sen.ltd/portfolio/konane/
+- 📝 記事: https://qiita.com/sen-ltd/items/e40a9cc149a4668eb5e4
+<!-- /sen-publish:links -->
